@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(173, 183, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+button{
+    background-color: aqua;
+    width: 120px;
+    height: 40px;
+    font-size: 1.43rem;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: blue;
+}
+
+button:visited{
+    background-color: violet;
+}
+
+.home-card{
+    display: flex;
+    padding: 5%;
+}
+
+.hero-img{
+    width: 40%;
+    height: 40%;
+    margin: 0 5%;
+}
